@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "puneetsingh99 <99singhpuneet99@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
